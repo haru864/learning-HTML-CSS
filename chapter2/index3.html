@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>フォーム作成練習</title>
+        <meta name="description" content="フォームを作成します">
+    </head>
+
+    <body>
+        <form>
+            <p>氏名：<input type="text" placeholder="姓 名"></p>
+            <p>検索ワード：<input type="search"></p>
+            <p>メールアドレス：<input type="email" placeholder="abc@example.com"></p>
+            <p>TEL：<input type="tel" placeholder="XXX-XXXX-XXXX"></p>
+            <p>URL：<input type="url" placeholder="http(s)://~"></p>
+            <p>
+                性別：
+                <input type="radio" name="gender" value="man">男
+                <input type="radio" name="gender" value="woman">女
+                <input type="radio" name="gender" value="unknown" checked>その他
+            </p>
+            <p>
+                興味：
+                <input type="checkbox" name="interest" value="os" checked>オペレーティングシステム
+                <input type="checkbox" name="interest" value="sec">セキュリティ
+                <input type="checkbox" name="interest" value="alg">アルゴリズムとデータ構造
+                <input type="checkbox" name="interest" value="hw">回路設計
+                <input type="checkbox" name="interest" value="nw">ネットワーク
+                <input type="checkbox" name="interest" value="comp">構文解析
+            </p>
+            血液型：
+            <select name="bloodtype">
+                <option value="A">A</option>
+                <option value="A">B</option>
+                <option value="A">O</option>
+                <option value="A">AB</option>
+            </select>
+            <p></p>
+            <textarea name="message" placeholder="その他連絡事項"></textarea><p></p>
+            <input type="submit" value="決定"><p></p>
+        </form>
+    </body>
+</html>
