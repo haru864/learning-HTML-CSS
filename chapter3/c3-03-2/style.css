@@ -1,6 +1,8 @@
 @charset "UTF-8";
 body {
     background-color: azure;
+    background-image: url("https://gtr35.jp/wp-content/uploads/2021/03/neko.jpg");
+    background-repeat: no-repeat;
 }
 h1 {
     color: brown;
