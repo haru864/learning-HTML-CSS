@@ -3,6 +3,10 @@ body {
     background-color: azure;
     background-image: url("https://gtr35.jp/wp-content/uploads/2021/03/neko.jpg");
     background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-size: contain;*/
+    background-size: 100vh;
+    /*background-size: 100vw;*/
 }
 h1 {
     color: brown;
