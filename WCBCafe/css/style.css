@@ -47,3 +47,29 @@ img {
 .main-nav a:hover {
     color:#0bd;
 }
+
+/*------CONTENT------*/
+.home-content {
+    text-align: center;
+    margin-top: 5%;
+}
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 50px;
+}
+.page-title {
+    font-size: 5rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.button {
+    font-size: 1.375rem;
+    background: #0db;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+.button:hover {
+    background: #0090aa;
+}
